@@ -14,6 +14,19 @@ let createEmployeeRecord = function(arr){
 let createEmployeeRecords =function(arOf){
 return  arOf.map((record)=> createEmployeeRecord(record))
 }
+
+let createTimeInEvent = function(employee, dateStamp){
+    let [date, hour] = dateStamp.split(' ')
+
+    employee.timeInEvents.push({
+        type: "TimeIn",
+        hour: parseInt(hour, 10),
+        date,
+    })
+
+    return employee
+}
+
 /*
  We're giving you this function. Take a look at it, you might see some usage
  that's new and different. That's because we're avoiding a well-known, but
