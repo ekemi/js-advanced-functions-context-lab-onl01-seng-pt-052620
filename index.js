@@ -1,7 +1,7 @@
 /* Your Code Here */
 let createEmployeeRecord = function(arr){
   let record ={};
-  return record{
+  return record={
     firstName: arr[0],
     familyName: arr[1],
     title: arr[2],
