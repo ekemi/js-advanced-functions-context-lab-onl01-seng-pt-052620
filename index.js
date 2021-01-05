@@ -5,7 +5,7 @@ let createEmployeeRecord = function(arr){
     firstName: arr[0],
     familyName: arr[1],
     title: arr[2],
-    payPerHour: [3],
+    payPerHour: arr[3],
     timeInEvents: [],
     timeOutEvents: []
   }
