@@ -1,5 +1,15 @@
 /* Your Code Here */
-
+let createEmployeeRecord = function(arr){
+  let record ={}
+  return record {
+    firstName: arr[0],
+    familyName: arr[1],
+    title: arr[2],
+    payPerHour: [3],
+    timeInEvents: [],
+    timeOutEvents: []
+  }
+}
 /*
  We're giving you this function. Take a look at it, you might see some usage
  that's new and different. That's because we're avoiding a well-known, but
